@@ -1,0 +1,17 @@
+{
+  "extends": "eslint-config-egg",
+  "rules": {
+    "semi": 0,
+    "space-before-function-paren": ["error", "always"],
+    "array-bracket-spacing": [2, "never"],
+    "arrow-spacing": [
+      2,
+      {
+        "before": true,
+        "after": true
+      }
+    ],
+    "comma-dangle": [2, "never"],
+    "eol-last": 0
+  }
+}
